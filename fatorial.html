@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculating the Fatorial</title>
+    <script>
+        var number = prompt("Please enter a number:")
+
+        function factorial(number){
+            var fact = 1;
+            for(counter = 1; counter <= number; counter++){
+                fact = fact * counter;
+            }
+            return fact;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        var result = factorial(number);
+        var output = "The factorial of " + number + " is " + result;
+        alert(output);
+    </script>
+
+</body>
+</html>
